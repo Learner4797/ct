@@ -1,0 +1,233 @@
+			@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+			body{
+				background-image: url('flag1.jpg');
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-position: center;
+				background-size: cover;
+ 				
+			}
+
+
+
+			img{
+				border: 4px solid black;
+				border-style: inset;
+				border-radius: 30px;
+				margin: 0 auto;
+			}
+
+			#linked{
+				border: 4px solid red;
+				border-style: solid;
+				margin-right: 0 auto;
+				float: left;
+				background: linear-gradient(#d9ff00 10%, white);
+
+			}
+			@media screen and (max-width: 500px;){
+				#linked {
+				width:100%;
+				display:inline-block;
+				float: left;
+				}
+				#linked a{
+				font-size: 40px;
+				}
+			}
+
+
+			#link2{
+				border: 2px orange;
+				border-style: solid;
+				margin: 0 auto;
+				float: right;
+				background: linear-gradient(orange 0% , yellow);
+				border-radius: 10px;
+				
+			}
+
+
+			a:link{
+				text-decoration: none;
+				border-radius: 20px;
+				
+			}
+
+			a:hover{
+				text-decoration: none;
+				background-color: orange;
+				border-radius: 5px;
+				color: red;
+			}
+
+
+
+			.highlight{
+				font-style: italic;
+				font-size: 25px;
+				background: linear-gradient(grey 10%,yellow);
+				border-radius: 10px;
+				opacity: .9;
+
+			}
+
+			.abc{
+
+				font-size: 35px;
+				float: left;
+				
+			}
+			@media screen and (max-width: 500px;){
+				.abc{
+					width: 100%;
+					float: left;
+					display: initial;
+				}
+			}
+			.highlight1{
+				font-style: bold;
+				font-size: 90px;
+			}
+
+			p ,h2{
+				
+				font-style: italic;
+				font-size: 22px;
+				font-family: "Comic Sans MS",cursive,sans-serif;
+			}
+
+			
+
+			.menu{
+				border: 2px lightskyblue;
+				background: linear-gradient(yellow 5% , #00c2c9);
+				color: white;
+				border-radius: 20px;
+				text-decoration: none;
+				text-align: center;
+				font-size: 25px;
+				font-family: "Comic Sans MS",cursive,sans-serif;
+				margin: 0 auto;
+			}
+
+			.menu a{
+
+				color: white;
+				text-decoration: none;
+				font-size: 25px;
+				font-family: "Comic Sans MS",cursive,sans-serif;
+			}
+
+			.menu a:hover {
+				background-color: #00fff7;
+				color: white;
+				text-decoration: none;
+				border-radius: 15px;
+
+			}
+			@media screen and (max-width: 500px;){
+				.menu {
+				width:100%;
+				display:inline-block;
+				float: none;
+				}
+			}
+
+			footer{
+
+				background-color: black;
+				font-family: "Comic Sans MS",cursive,sans-serif;
+				color: white;
+				font-size: 15px;
+				text-decoration: none;
+				border-radius: 15px;
+				margin: 0 auto;
+
+			}
+
+			aside {
+
+				
+				width: 100%;
+				margin: 0 auto;
+			}
+			@media screen and (max-width: 500px;){
+				footer {
+					width: 100%;
+					float: none;
+					display: inline;
+					margin: 0 auto;
+
+				}
+			}
+
+			.box_model{
+				border-style: groove;
+				background-color: #faba39;
+				border-color: orange;
+				border-radius: 20px;
+				margin: 0 auto;
+				padding: 10px 10px;
+				opacity: .9;
+			}
+			.pic {
+				margin: 0 auto;
+				height: 10%;
+				width: 10%;
+			}
+			@media screen and (max-width: 500px;){
+				.box_model {
+					width: 100%;
+					float: none;
+					display: block;
+
+				}
+			}
+
+			.table{
+
+				font-size: 20px;
+				font-family: "Comic Sans MS",cursive,sans-serif; 
+				border: 4px solid black;
+				border-radius: 20px;
+			}
+
+			th{
+				font-family: Impact, Charcoal, sans-serif;
+				color: red;
+				font-size: 20px;
+
+			}
+
+			.table tr:hover{
+				color: blue;
+				font-weight: bold;
+				background-color: yellow;
+				font-size: 20px;
+
+			}
+
+			.font{
+				text-align: center;
+				font-family: Impact, Charcoal, sans-serif;
+				color: red;
+				font-size: 20px;
+			}
+
+
+			.table1{
+
+				font-size: 20px;
+				font-family: "Comic Sans MS",cursive,sans-serif;
+			}
+
+			.table2{
+
+				font-size: 20px;
+				font-family: "Comic Sans MS",cursive,sans-serif;
+			}
+
+			ul{
+				list-style-type: square;
+			}
